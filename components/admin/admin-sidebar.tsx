@@ -31,13 +31,13 @@ const navigation = [
             { name: "Dashboard", href: "/admin/dashboard", icon: LayoutDashboard },
             { name: "Users", href: "/admin/users", icon: Users },
             { name: "Billing", href: "/admin/billing", icon: CreditCard },
-            { name: "Analytics", href: "/admin/analytics", icon: BarChart3 },
+            // { name: "Analytics", href: "/admin/analytics", icon: BarChart3 },
         ],
     },
     {
         label: "Platform",
         items: [
-            { name: "Activity", href: "/admin/activity", icon: Activity },
+            // { name: "Activity", href: "/admin/activity", icon: Activity },
             { name: "Training", href: "/admin/training", icon: Brain },
             { name: "Notifications", href: "/admin/notifications", icon: Bell },
             {

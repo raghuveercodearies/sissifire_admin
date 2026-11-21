@@ -234,12 +234,12 @@ export default function AdminTrainingPage() {
                         icon={Users}
                     />
 
-                    <StatCard
+                    {/* <StatCard
                         title="Completed Tasks"
                         value={overview.completed_tasks.toLocaleString("en-IN")}
                         description={`${overview.pending_tasks.toLocaleString("en-IN")} tasks pending`}
                         icon={CheckCircle2}
-                    />
+                    /> */}
 
                     <StatCard
                         title="Completion Rate"

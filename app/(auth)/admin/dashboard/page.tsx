@@ -595,7 +595,7 @@ export default function AdminDashboardPage() {
                                             accent="green"
                                         />
 
-                                        <StatCard
+                                        {/* <StatCard
                                             title="Conversations"
                                             value={formatNumber(
                                                 dashboard.overview.total_conversations,
@@ -605,7 +605,7 @@ export default function AdminDashboardPage() {
                                             )} total messages`}
                                             icon={Brain}
                                             accent="pink"
-                                        />
+                                        /> */}
                                     </div>
                                 </section>
 

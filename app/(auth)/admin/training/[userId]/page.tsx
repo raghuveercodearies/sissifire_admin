@@ -434,10 +434,10 @@ export default function AdminTrainingUserPage() {
                     value={`${progress.current_week} / ${progress.total_weeks}`}
                 />
 
-                <InfoCard
+                {/* <InfoCard
                     label="Completed Tasks"
                     value={`${progress.completed_tasks} / ${progress.total_tasks}`}
-                />
+                /> */}
 
                 <InfoCard
                     label="Pending Tasks"

@@ -9,6 +9,7 @@ import {
     Bell,
     Brain,
     CreditCard,
+    GraduationCap,
     LayoutDashboard,
     LogOut,
     ShieldCheck,
@@ -38,7 +39,11 @@ const navigation = [
         label: "Platform",
         items: [
             // { name: "Activity", href: "/admin/activity", icon: Activity },
-            { name: "Training", href: "/admin/training", icon: Brain },
+            {
+                name: "Training",
+                href: "/admin/training",
+                icon: GraduationCap,
+            },
             { name: "Notifications", href: "/admin/notifications", icon: Bell },
             {
                 name: "Terms & Conditions",
@@ -131,8 +136,8 @@ function AdminSidebarContent({
                                             key={item.href}
                                             onClick={() => handleNavigation(item.href)}
                                             className={`flex w-full items-center gap-3 rounded-xl border px-3 py-2.5 text-sm transition-all ${active
-                                                    ? "border-purple-400/10 bg-purple-400/[0.08] text-brand-soft"
-                                                    : "border-transparent text-muted-foreground hover:bg-white/[0.03] hover:text-foreground"
+                                                ? "border-purple-400/10 bg-purple-400/[0.08] text-brand-soft"
+                                                : "border-transparent text-muted-foreground hover:bg-white/[0.03] hover:text-foreground"
                                                 }`}
                                         >
                                             <Icon className="size-4 shrink-0" />
